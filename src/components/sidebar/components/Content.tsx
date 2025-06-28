@@ -73,7 +73,7 @@ function SidebarContent(props: SidebarContent) {
       <Box mt="60px" width={'100%'} display={'flex'} justifyContent={'center'}>
         <SidebarCard />
       </Box>
-      <APIModal setApiKey={setApiKey} sidebar={true} />
+      {/* <APIModal /> */}
       <Flex
         mt="8px"
         justifyContent="center"
@@ -126,20 +126,20 @@ function SidebarContent(props: SidebarContent) {
             bg={bgColor}
           >
             <Box mb="30px">
-              <Flex align="center" w="100%" cursor={'not-allowed'}>
+              <Flex align="center" w="100%" >
                 <Icon
                   as={MdOutlineManageAccounts}
                   width="24px"
                   height="24px"
                   color={gray}
                   me="12px"
-                  opacity={'0.4'}
+                  
                 />
                 <Text
                   color={gray}
                   fontWeight="500"
                   fontSize="sm"
-                  opacity={'0.4'}
+                 
                 >
                   Profile Settings
                 </Text>
@@ -163,16 +163,15 @@ function SidebarContent(props: SidebarContent) {
               </Flex>
             </Box>
             <Box mb="30px">
-              <Flex cursor={'not-allowed'} align="center">
+              <Flex  align="center">
                 <Icon
                   as={LuHistory}
                   width="24px"
                   height="24px"
                   color={gray}
-                  opacity="0.4"
                   me="12px"
                 />
-                <Text color={gray} fontWeight="500" fontSize="sm" opacity="0.4">
+                <Text color={gray} fontWeight="500" fontSize="sm" >
                   History
                 </Text>
                 <Link
@@ -195,16 +194,16 @@ function SidebarContent(props: SidebarContent) {
               </Flex>
             </Box>
             <Box mb="30px">
-              <Flex cursor={'not-allowed'} align="center">
+              <Flex  align="center">
                 <Icon
                   as={RoundedChart}
                   width="24px"
                   height="24px"
                   color={gray}
-                  opacity="0.4"
+                  
                   me="12px"
                 />
-                <Text color={gray} fontWeight="500" fontSize="sm" opacity="0.4">
+                <Text color={gray} fontWeight="500" fontSize="sm" >
                   Usage
                 </Text>
                 <Link
@@ -227,16 +226,16 @@ function SidebarContent(props: SidebarContent) {
               </Flex>
             </Box>
             <Box>
-              <Flex cursor={'not-allowed'} align="center">
+              <Flex  align="center">
                 <Icon
                   as={IoMdPerson}
                   width="24px"
                   height="24px"
                   color={gray}
-                  opacity="0.4"
+                  
                   me="12px"
                 />
-                <Text color={gray} fontWeight="500" fontSize="sm" opacity="0.4">
+                <Text color={gray} fontWeight="500" fontSize="sm" >
                   My Plan
                 </Text>
                 <Link

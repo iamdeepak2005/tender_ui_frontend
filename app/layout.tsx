@@ -56,11 +56,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <Portal>
                   <Box>
                     <Navbar
-                      setApiKey={setApiKey}
-                      onOpen={onOpen}
-                      logoText={'Horizon UI Dashboard PRO'}
-                      brandText={getActiveRoute(routes, pathname)}
-                      secondary={getActiveNavbar(routes, pathname)}
+                      // setApiKey={setApiKey}
+                      // onOpen={onOpen}
+                      // logoText={'Tender UI Dashboard PRO'}
+                      // brandText={getActiveRoute(routes, pathname)}
+                      // secondary={getActiveNavbar(routes, pathname)}
                     />
                   </Box>
                 </Portal>
@@ -72,15 +72,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   pt="50px"
                 >
                   {children}
-                  {/* <Component apiKeyApp={apiKey} {...pageProps} /> */}
                 </Box>
                 <Box>
-                  <Footer />
+                  
                 </Box>
               </Box>
             </Box>
           )}
-          {/* </ChakraProvider> */}
+          
         </AppWrappers>
       </body>
     </html>

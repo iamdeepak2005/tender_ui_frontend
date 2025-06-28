@@ -6,7 +6,6 @@ export const renderTrack = ({ style, ...props }: any) => {
     position: 'absolute',
     maxWidth: '100%',
     transition: 'opacity 200ms ease 0s',
-    opacity: 0,
     background: 'transparent',
     bottom: 2,
     top: 2,

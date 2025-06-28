@@ -183,7 +183,7 @@ export default function Chat(props: { apiKeyApp: string }) {
             mb="20px"
             borderRadius="60px"
           >
-            <Flex
+            {/* <Flex
               cursor={'pointer'}
               transition="0.3s"
               justify={'center'}
@@ -197,8 +197,8 @@ export default function Chat(props: { apiKeyApp: string }) {
               fontSize="18px"
               fontWeight={'700'}
               onClick={() => setModel('gpt-4o')}
-            >
-              <Flex
+            > */}
+              {/* <Flex
                 borderRadius="full"
                 justify="center"
                 align="center"
@@ -213,10 +213,10 @@ export default function Chat(props: { apiKeyApp: string }) {
                   height="20px"
                   color={iconColor}
                 />
-              </Flex>
-              GPT-4o
-            </Flex>
-            <Flex
+              </Flex> */}
+              {/* GPT-4o */}
+            {/* </Flex> */}
+            {/* <Flex
               cursor={'pointer'}
               transition="0.3s"
               justify={'center'}
@@ -230,8 +230,8 @@ export default function Chat(props: { apiKeyApp: string }) {
               fontSize="18px"
               fontWeight={'700'}
               onClick={() => setModel('gpt-3.5-turbo')}
-            >
-              <Flex
+            > */}
+              {/* <Flex
                 borderRadius="full"
                 justify="center"
                 align="center"
@@ -246,14 +246,14 @@ export default function Chat(props: { apiKeyApp: string }) {
                   height="20px"
                   color={iconColor}
                 />
-              </Flex>
-              GPT-3.5
-            </Flex>
+              </Flex> */}
+              {/* GPT-3.5 */}
+            {/* </Flex> */}
           </Flex>
 
           <Accordion color={gray} allowToggle w="100%" my="0px" mx="auto">
             <AccordionItem border="none">
-              <AccordionButton
+              {/* <AccordionButton
                 borderBottom="0px solid"
                 maxW="max-content"
                 mx="auto"
@@ -266,7 +266,7 @@ export default function Chat(props: { apiKeyApp: string }) {
                   </Text>
                 </Box>
                 <AccordionIcon color={gray} />
-              </AccordionButton>
+              </AccordionButton> */}
               <AccordionPanel mx="auto" w="max-content" p="0px 0px 10px 0px">
                 <Text
                   color={gray}
@@ -280,7 +280,6 @@ export default function Chat(props: { apiKeyApp: string }) {
             </AccordionItem>
           </Accordion>
         </Flex>
-        {/* Main Box */}
         <Flex
           direction="column"
           w="100%"
@@ -407,11 +406,11 @@ export default function Chat(props: { apiKeyApp: string }) {
           direction={{ base: 'column', md: 'row' }}
           alignItems="center"
         >
-          <Text fontSize="xs" textAlign="center" color={gray}>
+          {/* <Text fontSize="xs" textAlign="center" color={gray}>
             Free Research Preview. ChatGPT may produce inaccurate information
             about people, places, or facts.
-          </Text>
-          <Link href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">
+          </Text> */}
+          {/* <Link href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">
             <Text
               fontSize="xs"
               color={textColor}
@@ -420,7 +419,7 @@ export default function Chat(props: { apiKeyApp: string }) {
             >
               ChatGPT May 12 Version
             </Text>
-          </Link>
+          </Link> */}
         </Flex>
       </Flex>
     </Flex>

@@ -25,14 +25,14 @@ const routes: IRoute[] = [
   },
   {
     name: 'All Templates',
-    disabled: true,
+    disabled: false,
     path: '/all-templates',
     icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
     collapse: false,
   },
   {
     name: 'My Projects',
-    disabled: true,
+    disabled: false,
     path: '/my-projects',
     icon: <Icon as={MdLayers} width="20px" height="20px" color="inherit" />,
     collapse: false,
@@ -40,7 +40,7 @@ const routes: IRoute[] = [
   // --- Others ---
   {
     name: 'Other Pages',
-    disabled: true,
+    disabled: false,
     path: '/others',
     icon: <Icon as={MdFileCopy} width="20px" height="20px" color="inherit" />,
     collapse: true,
@@ -65,7 +65,7 @@ const routes: IRoute[] = [
   // --- Admin Pages ---
   {
     name: 'Admin Pages',
-    disabled: true,
+    disabled: false,
     path: '/admin',
     icon: <Icon as={MdLock} width="20px" height="20px" color="inherit" />,
     collapse: true,
@@ -94,7 +94,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Profile Settings',
-    disabled: true,
+    disabled: false,
     path: '/settings',
     icon: (
       <Icon
@@ -109,7 +109,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'History',
-    disabled: true,
+    disabled: false,
     path: '/history',
     icon: <Icon as={LuHistory} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -117,7 +117,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Usage',
-    disabled: true,
+    disabled: false,
     path: '/usage',
     icon: <Icon as={RoundedChart} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -125,7 +125,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'My plan',
-    disabled: true,
+    disabled: false,
     path: '/my-plan',
     icon: <Icon as={RoundedChart} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -134,7 +134,7 @@ const routes: IRoute[] = [
   // -------------- Prompt Pages --------------
   {
     name: 'Essay Generator',
-    disabled: true,
+    disabled: false,
     path: '/essay',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -142,7 +142,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Content Simplifier',
-    disabled: true,
+    disabled: false,
     path: '/simplifier',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -150,7 +150,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Product Description',
-    disabled: true,
+    disabled: false,
     path: '/product-description',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -158,7 +158,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Email Enhancer',
-    disabled: true,
+    disabled: false,
     path: '/email-enhancer',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -166,7 +166,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'LinkedIn Message',
-    disabled: true,
+    disabled: false,
     path: '/linkedin-message',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -174,7 +174,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Instagram Caption',
-    disabled: true,
+    disabled: false,
     path: '/caption',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -182,7 +182,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'FAQs Content',
-    disabled: true,
+    disabled: false,
     path: '/faq',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -190,7 +190,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Product Name Generator',
-    disabled: true,
+    disabled: false,
     path: '/name-generator',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -198,7 +198,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'SEO Keywords',
-    disabled: true,
+    disabled: false,
     path: '/seo-keywords',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -206,7 +206,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Review Responder',
-    disabled: true,
+    disabled: false,
     path: '/review-responder',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -214,7 +214,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Business Idea Generator',
-    disabled: true,
+    disabled: false,
     path: '/business-generator',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,
@@ -222,7 +222,7 @@ const routes: IRoute[] = [
   },
   {
     name: 'Article Generator',
-    disabled: true,
+    disabled: false,
     path: '/article',
     icon: <Icon as={IoMdPerson} width="20px" height="20px" color="inherit" />,
     invisible: true,

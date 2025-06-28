@@ -24,10 +24,10 @@ import NavLink from '../link/NavLink';
 import routes from '@/routes';
 
 export default function HeaderLinks(props: {
-  secondary: boolean;
-  setApiKey: any;
+  // secondary: boolean;
+  // setApiKey: any;
 }) {
-  const { secondary, setApiKey } = props;
+  // const { secondary, setApiKey } = props;
   const { colorMode, toggleColorMode } = useColorMode();
   // Chakra Color Mode
   const navbarIcon = useColorModeValue('gray.500', 'white');
@@ -55,14 +55,14 @@ export default function HeaderLinks(props: {
       alignItems="center"
       flexDirection="row"
       bg={menuBg}
-      flexWrap={secondary ? { base: 'wrap', md: 'nowrap' } : 'unset'}
+      // flexWrap={secondary ? { base: 'wrap', md: 'nowrap' } : 'unset'}
       p="10px"
       borderRadius="30px"
       boxShadow={shadow}
     >
       <SearchBar
         mb={() => {
-          if (secondary) {
+          if (true) {
             return { base: '10px', md: 'unset' };
           }
           return 'unset';
@@ -71,7 +71,6 @@ export default function HeaderLinks(props: {
         borderRadius="30px"
       />
       <SidebarResponsive routes={routes} />
-      <APIModal setApiKey={setApiKey} />
 
       <Menu>
         <MenuButton p="0px">
@@ -84,7 +83,7 @@ export default function HeaderLinks(props: {
             me="10px"
           />
         </MenuButton>
-        <MenuList
+        {/* <MenuList
           boxShadow={shadow}
           p="20px"
           me={{ base: '30px', md: 'unset' }}
@@ -95,7 +94,6 @@ export default function HeaderLinks(props: {
           minW={{ base: 'unset' }}
           maxW={{ base: '360px', md: 'unset' }}
         >
-          {/* <Flex bgImage={navImage} borderRadius="16px" mb="28px" alt="" /> */}
           <Flex flexDirection="column">
             <Link
               isExternal
@@ -157,7 +155,7 @@ export default function HeaderLinks(props: {
               </Button>
             </Link>
           </Flex>
-        </MenuList>
+        </MenuList> */}
       </Menu>
 
       <Button

@@ -106,7 +106,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
                             {route.icon}
                           </Box>
                           <Text
-                            cursor="not-allowed"
+                           
                             me="auto"
                             color={
                               route.disabled
@@ -135,7 +135,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
                         ps="32px"
                       >
                         <Text
-                          cursor="not-allowed"
+                          
                           me="auto"
                           fontWeight="500"
                           letterSpacing="0px"
@@ -250,10 +250,10 @@ export function SidebarLinks(props: SidebarLinksProps) {
                       w="100%"
                       alignItems="center"
                       justifyContent="center"
-                      cursor="not-allowed"
+                      
                     >
                       <Box
-                        opacity="0.4"
+                        
                         color={
                           route.disabled
                             ? gray
@@ -267,7 +267,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
                         {route.icon}
                       </Box>
                       <Text
-                        opacity="0.4"
+                        
                         me="auto"
                         color={
                           route.disabled
@@ -303,7 +303,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
                 </HStack>
               </Flex>
             ) : (
-              <ListItem ms={0} cursor="not-allowed" opacity={'0.4'}>
+              <ListItem ms={0} >
                 <Flex ps="32px" alignItems="center" mb="8px">
                   <Text
                     color={
@@ -336,7 +336,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
           alignItems="center"
           mb="10px"
           key={key}
-          cursor="not-allowed"
+         
         >
           <Icon
             w="6px"
